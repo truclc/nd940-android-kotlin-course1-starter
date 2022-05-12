@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="margin_end_small">8dp</dimen>
+    <dimen name="margin_end_large">16dp</dimen>
+    <dimen name="margin_end_largest">24dp</dimen>
+    <dimen name="margin_top_largest">48dp</dimen>
+    <dimen name="margin_top_biggest">96dp</dimen>
+    <dimen name="margin_bottom_largest">64dp</dimen>
+    <dimen name="text_size_small">8sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="margin_top_small">36dp</dimen>
+    <dimen name="margin_top_large">136dp</dimen>
+    <dimen name="margin_start_large">24dp</dimen>
+    <dimen name="layout_width_small">0dp</dimen>
+    <dimen name="shoe_item_width">120dp</dimen>
+</resources>
