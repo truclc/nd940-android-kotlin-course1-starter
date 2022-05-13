@@ -10,9 +10,11 @@
     <dimen name="margin_bottom_largest">64dp</dimen>
     <dimen name="text_size_small">8sp</dimen>
     <dimen name="text_size_large">16sp</dimen>
+    <dimen name="margin_top_ssmall">8dp</dimen>
     <dimen name="margin_top_small">36dp</dimen>
     <dimen name="margin_top_large">136dp</dimen>
+    <dimen name="margin_start_small">8dp</dimen>
     <dimen name="margin_start_large">24dp</dimen>
     <dimen name="layout_width_small">0dp</dimen>
-    <dimen name="shoe_item_width">120dp</dimen>
+    <dimen name="shoe_item_width">77dp</dimen>
 </resources>

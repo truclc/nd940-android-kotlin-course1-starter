@@ -13,72 +13,48 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/bound_background"
         android:paddingLeft="32dp"
         android:paddingRight="32dp"
         tools:context=".screens.shoedetail.ShoeDetailFragment">
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/shoe_name_txt"
-            app:layout_constraintBottom_toTopOf="@+id/edtName"
-            app:layout_constraintStart_toStartOf="@+id/edtName" />
 
         <EditText
             android:id="@+id/edtName"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="88dp"
+            android:hint="@string/shoe_name_hint_txt"
             android:text="@={shoeDetailViewModel.name}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/shoe_company_txt"
-            app:layout_constraintBottom_toTopOf="@+id/edtCompany"
-            app:layout_constraintStart_toStartOf="@+id/edtCompany" />
-
         <EditText
             android:id="@+id/edtCompany"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/shoe_company_hint_txt"
             android:text="@={shoeDetailViewModel.company}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edtName" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/shoe_size_txt"
-            app:layout_constraintBottom_toTopOf="@+id/edtSize"
-            app:layout_constraintStart_toStartOf="@+id/edtSize" />
-
         <EditText
             android:id="@+id/edtSize"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/shoe_size_hint_txt"
             android:inputType="numberDecimal"
             android:text="@={shoeDetailViewModel.size}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edtCompany" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/shoe_description_txt"
-            app:layout_constraintBottom_toTopOf="@+id/edtDescription"
-            app:layout_constraintStart_toStartOf="@+id/edtDescription" />
-
         <EditText
             android:id="@+id/edtDescription"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:hint="@string/shoe_description_hint_txt"
             android:text="@={shoeDetailViewModel.description}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -13,7 +13,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="label_login">Login</string>
     <string name="label_welcome">Welcome</string>
-    <string name="welcome_txt">Hi you!</string>
+    <string name="welcome_txt">Hi there!</string>
     <string name="welcome_detail_txt">Welcome you to Shoe App</string>
     <string name="label_instruction">Instructions</string>
     <string name="label_shoe_list">Shoe List</string>
@@ -21,14 +21,17 @@
     <string name="lest_go_text">Let\'s Go</string>
     <string name="instructions_txt">Tap the Plus button to add new item</string>
     <string name="start_txt">Start</string>
-    <string name="guide_txt">Guide</string>
-    <string name="welcome_you_to_shoe_app">Welcome you to Shoe App</string>
+    <string name="guide_txt">Guide!!!</string>
+    <string name="welcome_you_to_shoe_app">Welcome you to Shoe Store</string>
     <string name="logout_txt">Logout</string>
-    <string name="label_shoe_company_hint">Enter Company</string>
-    <string name="shoe_name_txt">Name Shoe</string>
-    <string name="shoe_company_txt">Shoe Company</string>
-    <string name="shoe_size_txt">Shoe Size</string>
-    <string name="shoe_description_txt">Shoe Description</string>
+    <string name="shoe_name_txt">Name Shoe:</string>
+    <string name="shoe_company_txt">Shoe Company:</string>
+    <string name="shoe_size_txt">Shoe Size:</string>
+    <string name="shoe_description_txt">Shoe Description:</string>
+    <string name="shoe_name_hint_txt">Enter Name Shoe</string>
+    <string name="shoe_company_hint_txt">Enter Shoe Company</string>
+    <string name="shoe_size_hint_txt">Enter Shoe Size</string>
+    <string name="shoe_description_hint_txt">Enter Shoe Description</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_save">Save</string>
 </resources>
