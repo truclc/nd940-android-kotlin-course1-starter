@@ -9,6 +9,8 @@
             type="com.udacity.shoestore.models.Shoe" />
     </data>
 
+    <!--Should use ConstraintLayout it helps avoid using nested layouts and has better performance-->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
         android:layout_width="345dp"
